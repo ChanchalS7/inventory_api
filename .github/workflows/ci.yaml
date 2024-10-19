@@ -2,7 +2,7 @@ name : Continuous Integration
 on : push
 jobs:
   run_code_checks:
-    runs_on:ubuntu-latest
+    runs_on: ubuntu-latest
     steps:
       -name: Set up MySQL
       run:
